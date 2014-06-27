@@ -1,0 +1,21 @@
+
+git command for zou ying:
+
+1. git init
+2. git add
+3. git commit -m "New Commit."  // commit -a
+4. git diff file-name
+5. git log
+6. git reset --hard HEAD^  | HEAD~100
+7. git reflog  //Check history command.
+8. git diff HEAD -- file.txt   // check out workspace vs version space.
+
+// reset file:
+9. git reset HEAD file.txt
+10. git checkout -- readme.txt  // checkout: means using version space instead of work space.
+
+// Remove
+11. git rm file.        // rm file
+
+12. git remote add origin git@server-name:path/repo-name.git
+13. git push -u origin master   // push master branch to upstream
